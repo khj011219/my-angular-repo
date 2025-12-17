@@ -30,7 +30,7 @@ export class CalculatorComponent implements OnInit {
     // Calculate according to the operator
     switch (operator) {
       case "+": {
-        this.result = firstInput + secondInput;
+        this.result = firstInput / secondInput;
         break;
       }
       case "-": {
